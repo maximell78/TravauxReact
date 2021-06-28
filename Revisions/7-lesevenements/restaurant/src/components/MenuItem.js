@@ -32,10 +32,8 @@ class MenuItem extends React.Component {
         </div>
         <div className="rightContainer">
           {itemInfo.price} EUR
-          <div
-            onClick={this.handleClickFavorite}
-            className={isFavorite ? "isFavorite" : "notFavorite"}
-          ></div>
+          <div onClick={this.handleClickFavorite} className={isFavorite ? "isFavorite" : "notFavorite"}>
+          </div>
         </div>
       </div>
     );

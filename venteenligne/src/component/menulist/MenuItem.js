@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 
 class MenuItem extends React.Component {
     constructor(props){
@@ -25,4 +25,4 @@ class MenuItem extends React.Component {
             </div>
         )
     }
-}*/
+}
